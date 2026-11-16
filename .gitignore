@@ -1,0 +1,12 @@
+# Database file (contains your own data, do not upload)
+*.db
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Editor / system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
