@@ -53,13 +53,16 @@ erp_data.db     # database file (created automatically, not uploaded to Git)
 README.md
 ```
 
-Inside `erp_app.py` the code has 3 parts:
+Inside `erp_app.py` the code has 4 parts:
 
 | Part | What it does |
 |------|--------------|
 | Part 1 | Database functions (create tables, add, read, update, delete, make a sale) |
-| Part 2 | The window (sidebar, pages, forms, tables) |
-| Part 3 | Starts the program |
+| Part 2 | Button functions (what happens when you click Add, Update, Delete, Sell) |
+| Part 3 | Drawing the screen (sidebar, pages, forms, tables) |
+| Part 4 | Starts the app |
+
+The code uses simple functions only (no classes), so it is easy to read and change.
 
 ## Database tables
 
@@ -71,8 +74,8 @@ Inside `erp_app.py` the code has 3 parts:
 
 ## Change the colors
 
-Open `erp_app.py` and find the lines starting with `COLOR_` at the top of Part 2.
-Change the hex codes (for example `COLOR_BLUE = "#2563eb"`) and the whole app look changes.
+Open `erp_app.py` and find the color lines at the start of Part 3 (`BG`, `DARK`, `BLUE`, `GREEN`, `RED` and so on).
+Change the hex codes (for example `BLUE = "#2563eb"`) and the whole app look changes.
 
 ## Ideas for the next steps
 
